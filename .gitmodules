@@ -1,3 +1,3 @@
 [submodule "lib"]
 	path = lib
-	url = https://github.com/buglabs/dweetio-client.git
+	url = https://github.com/buglabs/dweetproio-client.git

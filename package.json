@@ -1,18 +1,19 @@
 {
-	"name": "node-dweetio",
-	"version": "0.0.12",
-	"description": "A node.js client for dweet.io",
-	"main": "dweet.io.js",
+	"name": "node-dweetproio",
+	"version": "1.0.1",
+	"description": "A node.js client for dweetpro.io",
+	"main": "dweetpro.io.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/buglabs/node-dweetio.git"
+		"url": "https://github.com/buglabs/node-dweetproio.git"
 	},
 	"author": "Jim Heising <jheising@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/buglabs/node-dweetio/issues"
+		"url": "https://github.com/buglabs/node-dweetproio/issues"
 	},
 	"keywords": [
+		"dweetpro.io",
 		"dweet.io",
 		"internet of things",
 		"pubsub",
@@ -24,10 +25,10 @@
 		"beaglebone",
 		"messaging"
 	],
-	"homepage": "http://dweet.io",
+	"homepage": "https://dweetpro.io",
 	"dependencies": {
-		"socket.io-client": "0.9.16",
-		"request": "2.33.0"
+		"request": "^2.78.0",
+		"socket.io-client": "^1.5.1"
 	},
 	"devDependencies": {
 		"should": "3.1.2",
